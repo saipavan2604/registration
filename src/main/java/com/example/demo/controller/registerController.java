@@ -1,18 +1,13 @@
 package com.example.demo.controller;
-
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-
 
 @RestController
 public class registerController{
 
-	
 	@GetMapping("/")
 	public String homepage() {
-	    return "index";
+		return "index";
 	  }
 
 	
